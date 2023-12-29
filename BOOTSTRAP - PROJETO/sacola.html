@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <!--Bootstrap JavaScript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <title>THE GIRL POWER: Carrinho</title>
+  <style>
+    .navbar {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .texto {
+      display: flex;
+      align-items: end;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <!--MENU DE NAVEGAÇÃO-->
+  <nav class="navbar navbar-expand-lg bg-dark-subtle">
+    <div class="container fluid">
+      <a class="navbar-brand mb-0 text-dark">The Girl Power</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" href="index.html">Início</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">
+              Coleções
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Partes de Cima</a></li>
+              <li><a class="dropdown-item" href="#">Partes de Baixo</a></li>
+              <li><a class="dropdown-item" href="filtro.html">Vestidos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark">Sobre</a>
+          </li>
+        </ul>
+      </div>
+      <!--No final do menu-->
+      <!--Caixa de pesquisa e ícone da lupa-->
+      <div class="nav justify-content-end">
+        <li class="nav-item text-dark">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+            <button class="btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </li>
+        <!--Sacolinha-->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="sacola.html">
+            <i class="bi bi-handbag"> </i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark">
+            Login
+          </a>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <!--CORPO DA PÁGINA-->
+  <main class="flex-fill main">
+    <div class="container mt-5">
+      <div class="row g-3">
+        <!--Primeira coluna com os produtos-->
+        <div class="col-12 col-md-6">
+          <h1>Carrinho</h1>
+          <p>Não está pronto para finalizar a compra? <a class="text-dark" href="index.html">Continue comprando.</a></p>
+
+          <!--Primeira linha com um produto-->
+          <div class="row">
+            <div class="col-12 col-md-4 py-2">
+              <img src="img/carrinho/prod1.jpg" class="rounded float-start">
+            </div>
+            <div class="col-12 col-md-6 my-3">
+              <h4 class="mb-3">Vestido Dourado Longo</h4>
+              <p class="text-lg-start mb-0">Tamanho: M</p>
+              <p class="text-lg-start mb-0">Quantidade: 2</p>
+              <p class="text-lg-start">R$ 203,59</p>
+            </div>
+            <div class="col-12 col-md-2 texto"><u>Deletar</u></div>
+          </div>
+
+          <!--Linha de separação-->
+          <hr class="col-12">
+
+          <!--Segunda linha com um produto-->
+          <div class="row">
+            <div class="col-12 col-md-4 py-2">
+              <img src="img/carrinho/prod2.jpg" class="rounded float-start">
+            </div>
+            <div class="col-12 col-md-6 my-3">
+              <h4 class="mb-3">Vestido Laranja Florido</h4>
+              <p class="text-lg-start mb-0">Tamanho: M</p>
+              <p class="text-lg-start mb-0">Quantidade: 1</p>
+              <p class="text-lg-start">R$ 169,34</p>
+            </div>
+            <div class="col-12 col-md-2 texto"><span><u>Deletar</u></span></div>
+          </div>
+
+          <!--Linha de separação-->
+          <hr class="col-11">
+
+          <!--Terceira linha com um produto-->
+          <div class="row">
+            <div class="col-12 col-md-4 py-2">
+              <img src="img/carrinho/prod3.jpg" class="rounded float-start">
+            </div>
+            <div class="col-12 col-md-6 my-3">
+              <h4 class="mb-3">Vestido Pink Curto - Mangas bufantes</h4>
+              <p class="text-lg-start mb-0">Tamanho: M</p>
+              <p class="text-lg-start mb-0">Quantidade: 1</p>
+              <p class="text-lg-start">R$ 178,94</p>
+            </div>
+            <div class="col-12 col-md-2 texto"><span><u>Deletar</u></span></div>
+          </div>
+        </div>
+
+        <!--Segunda Coluna com o resumo-->
+        <div class="col-12 col-md-1"></div>
+
+        <!--Terceira Coluna com o resumo-->
+        <div class="col-12 col-md-5 py-5 mt-5">
+          <h3>Resumo da compra </h3>
+          <div class="input-group mt-4 mb-3">
+            <input type="text" class="form-control" placeholder="Coloque seu cupom de desconto aqui">
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+              <p> Subtotal</p>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-4 text-end"> R$ 755,09</div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">Envio</div>
+            <div class="col-4"></div>
+            <div class="col-6 text-end"> Calculado na próxima etapa</div>
+          </div>
+
+          <div class="row">
+            <hr class="col-12">
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+              <p> Total</p>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-4 text-end"> R$ 755,09</div>
+          </div>
+
+          <div class="row justify-content-center">
+            <button type="submit" class="btn btn-dark col-11"><a class="text-decoration-none text-white"
+                href="pagamento.html">Comprar</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
